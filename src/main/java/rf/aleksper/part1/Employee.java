@@ -17,6 +17,9 @@ public class Employee {
 		this.age = age;
 	}
 
+	public Employee() {
+	}
+
 	//---------------------------------------------------------------------------------------
 	public String getFullName() {
 		return fullName;

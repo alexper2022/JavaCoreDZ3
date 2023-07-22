@@ -1,5 +1,9 @@
 package rf.aleksper.part2;
 
+import rf.aleksper.part1.Employee;
+
+import java.util.List;
+
 /*
 Опишите класс руководителя, наследник от сотрудника. Перенесите статический метод
 повышения зарплаты в класс руководителя, модифицируйте метод таким образом,
@@ -9,7 +13,7 @@ package rf.aleksper.part2;
 не повысилась.
  */
 public class Two {
-	public static void run() {
-
+	public static void run(List<Employee> employees, Boss boss, int age, int increaseInSalary){
+		boss.increaseInSalary(employees,age,increaseInSalary);
 	}
 }
