@@ -28,13 +28,13 @@ public class One {
 		Employee employee1 = new Employee("Pupkin Vasiliy Evgrafovich", "Manager",
 				"+79889881234", 100000, 25);
 		Employee employee2 = new Employee("Ivanov Sidor Petrovich", "Manager",
-				"+79889881234", 100000, 35);
-		Employee employee3 = new Employee("Petrov Vasiliy Evgrafovich", "Manager",
-				"+79889881234", 100000, 45);
-		Employee employee4 = new Employee("Sidorov Vasiliy Evgrafovich", "Manager",
-				"+79889881234", 100000, 55);
-		Employee employee5 = new Employee("Vasiliev Vasiliy Evgrafovich", "Manager",
-				"+79889881234", 100000, 60);
+				"+79889882345", 100000, 35);
+		Employee employee3 = new Employee("Petrov Ivan Fedorovich", "Manager",
+				"+79889883456", 100000, 45);
+		Employee employee4 = new Employee("Sidorov Nikolay Nikolaevich", "Manager",
+				"+79889884567", 100000, 55);
+		Employee employee5 = new Employee("Vasiliev Vasiliy Vasilievich", "Manager",
+				"+79889885678", 100000, 60);
 //----------------------------------------------------------------------------------------------------
 // Добавляем всех сотрудников в массив
 		System.out.println("\nДобавляем всех сотрудников в массив");
@@ -51,7 +51,8 @@ public class One {
 		}
 //----------------------------------------------------------------------------------------------------
 // Выводим информацию о сотруднике с помощью специального метода не встроенного в класс
-		System.out.printf("%nВыводим информацию о сотруднике с помощью специального метода не встроенного в класс");
+		System.out.printf("%nВыводим информацию о сотруднике с помощью специального метода не встроенного" +
+				"в класс");
 		for (Employee employee : employees) {
 			printEmployeeInfo(employee);
 		}
